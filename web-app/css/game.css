@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: table;
+}
+.outer {
+    height:100%;
+    width: 100%;
+    display:table-row;
+}
+.inner {
+    display: block;
+    height:100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.map {
+    height:100%;
+    min-height: 200px;
+    border: 1px solid lightgray;
+    background-color: #60D2FF;
+    border-radius: 4px;
+}
+
+.location-country {
+    background-image: linear-gradient(to bottom, #0000ff 0%, #0F0F0F 100%) !important;
+}
+
+.view-country {
+    background-image: linear-gradient(to bottom, #FFFF00 0%, #0F0F0F 100%) !important;
+}
+
+.goal-country {
+    background-image: linear-gradient(to bottom, #FF0000 0%, #0F0F0F 100%) !important;
+}
+
+.tooltip-inner {
+    max-width: 800px;
+    min-width: 600px;
+    font-size: 18px;
+    margin-bottom: -15px;
+    text-align: left;
+}
+.tooltip-arrow {
+    margin-bottom: -15px;
+}
+
+#continue-button {
+    margin: 8px 15px 7px;
+    visibility: hidden;
+}

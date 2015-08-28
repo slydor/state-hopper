@@ -1,0 +1,31 @@
+
+.row>.panel{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.panel {
+    border: 1px solid lightgray;
+}
+
+.tut-checkbox {
+    float: right;
+}
+
+.checkboxes{
+    overflow: auto;
+    max-height: 300px; /*360*/
+}
+
+tbody>tr {
+    border: 1px solid lightgray;
+}
+
+form>div>button {
+    width: 100%;
+}
+
+.whatsthis {
+    margin-top: 10px;
+}
+
